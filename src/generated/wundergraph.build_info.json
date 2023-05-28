@@ -1,0 +1,26 @@
+{
+  "success": true,
+  "sdk": {
+    "version": "0.146.1"
+  },
+  "wunderctl": {
+    "version": "0.138.0"
+  },
+  "node": {
+    "version": "v18.15.0"
+  },
+  "os": {
+    "type": "Linux",
+    "platform": "linux",
+    "arch": "x64",
+    "version": "#79~20.04.1-Ubuntu SMP Thu Apr 20 22:12:07 UTC 2023",
+    "release": "5.15.0-72-generic"
+  },
+  "stats": {
+    "totalApis": 3,
+    "hasUploadProvider": false,
+    "totalOperations": 0,
+    "totalWebhooks": 0,
+    "hasAuthenticationProvider": false
+  }
+}
