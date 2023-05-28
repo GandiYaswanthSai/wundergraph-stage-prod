@@ -1,0 +1,21 @@
+generator client {
+    provider      = "prisma-client-js"
+    binaryTargets = ["native", "debian-openssl-1.1.x"]
+}
+
+datasource db {
+    provider = "postgresql"
+    url      = "postgresql://postgres:postgres@db:5432/entity_store?schema=public"
+}
+
+model A1_DummyEntity4 {
+    record_id     BigInt  @id
+    TransactionID String?
+    parent_id     BigInt?
+    org_unit_id   BigInt?
+    owner_id      BigInt?
+    audit_data    String?
+    updated_at    BigInt?
+
+    @@index([parent_id], map: "parentid_16770699865071082394095")
+}
